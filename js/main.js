@@ -4,7 +4,7 @@ const courses = {
   buy_guru: 2,
 };
 
-var courseSelector = document.getElementById("courseSelector");
+const courseSelector = document.getElementById("courseSelector");
 
 Object.keys(courses).map(function (v, i) {
   document.getElementById(`${v}`).addEventListener("click", (event) => {
